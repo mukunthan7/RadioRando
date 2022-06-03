@@ -1,0 +1,204 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  font-family: Poppins, sans-serif;
+}
+body {
+  background: #161623;
+}
+.logo_radio {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.logo_radio img {
+  width: 550px;
+  height: 550px;
+}
+form {
+  max-width: 800px;
+  min-height: 800px;
+  margin: 0 auto;
+  padding: 0px;
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  border-right: 1px solid rgba(255, 255, 255, 0.2);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 10px;
+  backdrop-filter: blur(20px);
+  text-align: center;
+}
+form h1 {
+  font-size: 40px;
+  margin-bottom: 30px;
+  background: orange;
+  border-radius: 10px;
+  color: black;
+}
+form .register_logo {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  margin-bottom: 30px;
+}
+.main_form {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+label {
+  margin: 10px;
+}
+.name {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+.name input {
+  width: 20rem;
+  height: 50px;
+  border: 5px solid orange;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  margin-bottom: 1rem;
+  padding-left: 50px;
+}
+.details {
+  font-size: 20px;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+.details input {
+  width: 20rem;
+  height: 50px;
+  border: 5px solid orange;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  margin-bottom: 1rem;
+  padding-left: 50px;
+}
+.sex_radio {
+  font-size: 20px;
+  margin: 10px;
+}
+.sex_radio input {
+  background: #161623;
+}
+.podcast_details {
+  font-size: 20px;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+.podcast_details input {
+  width: 20rem;
+  height: 50px;
+  border: 5px solid orange;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  margin-bottom: 1rem;
+  padding-left: 50px;
+}
+.podcast_details select {
+  width: 20rem;
+  height: 50px;
+  color: #fff;
+  border: 5px solid orange;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  margin-bottom: 1rem;
+  padding-left: 50px;
+}
+.podcast_details select option {
+  font-size: 20px;
+  background: #161623;
+}
+.check_policy {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+.check_policy input {
+  width: 2rem;
+  height: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 5px;
+}
+.submit_btn {
+  width: 15rem;
+  height: 40px;
+  border: none;
+  border-radius: 5px;
+  background-color: #000;
+  color: #fff;
+  font-size: 18px;
+  cursor: pointer;
+}
+.dob_style {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+.dob_style input {
+  width: 20rem;
+  height: 50px;
+  color: #fff;
+  border: 5px solid orange;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  margin-bottom: 1rem;
+  padding-left: 50px;
+}
+.podcast_logo {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+.podcast_logo input {
+  width: 12rem;
+  height: 40px;
+  border-radius: 5px;
+  padding-left: 10px;
+  margin-bottom: 10px;
+}
+.profile_photo {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+.profile_photo input {
+  width: 12rem;
+  height: 40px;
+  border-radius: 5px;
+  padding-left: 10px;
+  margin-bottom: 10px;
+}
+
+.marital_status {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+.marital_status select {
+  width: 20rem;
+  height: 50px;
+  color: #fff;
+  border: 5px solid orange;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  margin-bottom: 1rem;
+  padding-left: 50px;
+}
+.marital_status select option {
+  font-size: 17px;
+  background: #161623;
+}
+form input::-webkit-input-placeholder {
+  color: #fff;
+}

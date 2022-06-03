@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>RADIO RANDO</title>
+    <link rel="stylesheet" href="main.css" />
+  </head>
+  <body>
+    <div>
+      <div class="logo_radio">
+        <img src="./assets/rr white.png" />
+      </div>
+      <form action="get">
+        <div class="main_form">
+          <div class="form_header">
+            <h1>RADIO RANDO</h1>
+            <img class="register_logo" src="./assets/Radio Rando Orange Black LOGO Png 1logo.svg" />
+          </div>
+          <div class="name">
+            <label for="name">First Name :</label>
+            <input
+              type="text"
+              name="name"
+              placeholder="First Name"
+              id="first_name"
+            />
+            <label for="name">Last Name :</label>
+            <input
+              type="text"
+              name="name"
+              placeholder="Last Name"
+              id="last_name"
+            />
+          </div>
+          <span class="profile_photo">
+            <label for="profile">Profile Photo :</label>
+            <input type="file" name="profile" id="profile" />
+          </span>
+          <div class="details">
+            <label for="email">Email :</label>
+            <input type="text" name="email" placeholder="Email" id="email" />
+            <label for="phone">Phone number :</label>
+            <input
+              type="tel"
+              id="phone"
+              name="phone"
+              placeholder="Phone No"
+              id="phone"
+            />
+            <label for="qulification">Qulification :</label>
+            <input
+              type="text"
+              name="qulification"
+              placeholder="Qulification"
+              id="qulification"
+            />
+            <label for="residential">Residential Address :</label>
+            <input
+              type="text"
+              name="residential"
+              placeholder="Residential Address"
+            />
+          </div>
+          <div class="sex_radio">
+            <label for="sex">Sex :</label>
+            <input type="radio" name="sex" /> Male
+            <input type="radio" name="sex" /> Female
+            <input type="radio" name="sex" /> Others
+          </div>
+          <span class="dob_style">
+            <label for="DOB">Date of Birth :</label>
+            <input type="date" name="DOB"
+          /></span>
+          <div class="marital_status">
+            <label for="marital">Marital Status :</label>
+            <select name="marital_status" id="marital_status">
+              <option value="">Select Marital Status</option>
+              <option value="Single">Single</option>
+              <option value="Married">Married</option>
+              <option value="Widowed">Widowed</option>
+              <option value="Separated">Separated</option>
+              <option value="Divorced">Divorced</option>
+            </select>
+          </div>
+          <span class="podcast_logo"
+            ><label for="podcast_logo">PodCast Logo :</label>
+            <input type="file" name="podcast_logo" id="podcast_logo" />
+          </span>
+          <div class="podcast_details">
+            <label for="podcast_name">PodCast Name :</label>
+            <input
+              type="text"
+              name="podcast_name"
+              placeholder="PodCast Name"
+              id="podcast_name"
+            />
+            <label for="creator_name">Creator Name :</label>
+            <input
+              type="text"
+              name="creator_name"
+              placeholder="Creator Name"
+              id="creator_name"
+            />
+            <label for="language">Language :</label>
+            <select name="language" id="language">
+              <option value="">Select Language</option>
+              <option value="English">English</option>
+              <option value="Hindi">Hindi</option>
+              <option value="Bengali">Telugu</option>
+              <option value="Tamil">Tamil</option>
+            </select>
+            <label for="jonor_used">Jonor Used :</label>
+            <input
+              type="text"
+              name="jonor_used"
+              placeholder="Jonor Used"
+              id="jonor_used"
+            />
+          </div>
+          <p class="check_policy">
+            <input type="checkbox" id="policy" />Privacy Policy agreement
+          </p>
+          <p class="check_policy">
+            <input type="checkbox" id="community" />Community guidelines
+          </p>
+          <input class="submit_btn" type="submit" value="submit" />
+        </div>
+    </div>
+    </form>
+  </body>
+</html>
